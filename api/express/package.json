@@ -1,0 +1,31 @@
+{
+    "name": "express-boilerplate",
+    "version": "0.0.1",
+    "description": "Template for express service",
+    "main": "server/server.js",
+    "scripts": {
+        "start": "node app/app.js",
+        "test": "grunt test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:thullSL/elements.git"
+    },
+    "author": "Thomas Hull ",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/thullSL/elements/issues"
+    },
+    "homepage": "https://github.com/thullSL/elments",
+    "devDependencies": {
+        "grunt": "^0.4.5",
+        "grunt-nodemon": "^0.4.0"
+    },
+    "dependencies": {
+        "body-parser": "^1.13.3",
+        "cookie-parser": "^1.3.5",
+        "express": "^4.13.0",
+        "mongodb": "^2.0.35",
+        "promise": "^7.1.1"
+    }
+}

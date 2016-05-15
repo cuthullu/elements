@@ -1,0 +1,12 @@
+api:
+  build: ./api/express
+  links:
+    - db
+  environment:
+    DB_URI : "mongodb://db"
+  ports:
+    - "3000:3000"
+db:
+  image: mongo:latest
+  ports:
+    - "27017:27017"
